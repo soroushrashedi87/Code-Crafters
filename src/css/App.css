@@ -1,0 +1,263 @@
+@font-face{
+  font-family: ferda;
+  src: url(../assets/fonts/Fedra.ttf) format('truetype');
+}
+@font-face{
+  font-family: iranSans;
+  src: url(../assets/fonts/iranSans.woff);
+}
+@font-face{
+  font-family: faramarzian;
+  src: url(../assets/fonts/faramarzian.ttf) format('truetype');
+}
+/* genral */
+.direction-rtl{
+  direction: rtl !important;
+}
+.direction-ltr{
+  direction: ltr;
+}
+.space-aground{
+  justify-content: space-around !important;
+}
+.mt-6{
+  margin-top: 80px;
+}
+.btn-block{
+  border-bottom: 3px solid rgb(233, 100, 51) !important;
+  background: red !important;
+  box-shadow: 0 !important;
+}
+.btn-block:focus{
+  border-bottom: 0 !important;
+}
+.bg-secndary{
+  background-color: rgb(238, 228, 228) !important;
+}
+.f-f{
+  font-family: ferda !important;
+}
+.f-i{
+  font-family: iranSans !important;
+}
+.f-fa{
+  font-family: faramarzian !important;
+}
+.textField-search{
+  background: transparent;
+  border: 0 !important;
+  width: 300px;
+  outline: none !important;
+  box-shadow: 0 0 0 !important;
+}
+.searchbox{
+  border: 1px solid gray;
+  border-radius: 5px;
+  display: flex;
+  align-items: center !important;
+  transition: 0.5s;
+}
+.searchbox-btn{
+  background: transparent;
+  border: none !important;
+  color: gray;
+  font-size: 1.3rem;
+}
+.box-shadow-1{
+  box-shadow: 0 0 8px lightgray;
+}
+.bg-none{
+  background: none !important;
+}
+.border-none{
+  border: none !important;
+}
+.mt--2{
+  margin-top: -20px !important;
+}
+.mt--1{
+  margin-top: -10px !important;
+}
+.display-7{
+  font-size: 1.2rem !important;
+}
+.font-bold{
+  font-weight: bold !important;
+}
+/* end general */
+/* navbar */
+.navbar{
+  background-color: #18354c !important;
+}
+.navbar-toggler-icon{
+  color: gray;
+}
+.navbar-toggler{
+  box-shadow: 0 0 0 !important;
+  border: 0 !important;
+  outline: none !important;
+}
+.navbar-brand{
+  color: white !important;
+  font-family: ferda !important;
+  /* font-weight: bold; */
+  margin-left: 15px;
+}
+.navbar-brand-icon{
+  margin-left: 15px;
+  color: yellow;
+  font-size: 1.7rem;
+}
+.nav-item{
+  list-style: none;
+  margin-left: 10px;
+}
+.nav-link{
+  color: white !important;
+  font-family: iranSans;
+}
+.nav-link-join{
+  border-bottom: 3px solid orangered !important;
+}
+.nav-link-join:focus{
+  border-bottom: 0 !important;
+}
+.navbar-textField-search{
+  background: transparent;
+  border: 0 !important;
+  width: 300px;
+  outline: none !important;
+}
+.navbar-searchbox{
+  border: 1px solid gray;
+  border-radius: 5px;
+  display: flex;
+  align-items: center !important;
+  transition: 0.5s;
+}
+.navbar-textField-search:focus.navbar-searchbox{
+  outline: 1px solid darkblue;
+}
+.navbar-searchbox-btn{
+  background: transparent;
+  border: none !important;
+  color: gray;
+  font-size: 1.3rem;
+}
+@media (min-width: 992px) and (max-width: 1199px){
+  .nav-link{
+    font-size: 0.8rem !important;
+  }
+  .navbar-brand{
+    font-size: 1.15rem !important;
+  }
+}
+@media screen and (max-width: 991px){
+  .navbar-textField-search{
+    width: 100%;
+  }
+}
+.collapse{
+  transition: 0.6s !important;
+}
+/* end navbar */
+/* new Article */
+.newArticle-likeIcon{
+  font-size: 1.4rem !important;
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+@media (min-width: 405px) and (max-width: 461px){
+  .newArticle-likeIcon{
+    font-size: 1.1rem !important;
+  }
+  .newArticle-tags{
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 405px) {
+  .newArticle-likeIcon{
+    font-size: 0.9rem !important;
+  }
+  .newArticle-tags{
+    font-size: 0.7rem;
+  }
+  .newArticle-date{
+    font-size: 0.7rem;
+  }
+}
+/* end new Article */
+/* section categories */
+.section-categories-category{
+  background-color: #18354c;
+  transition: 0.3s;
+}
+.section-categories-category:hover{
+  background: #304658 !important;
+}
+@media (min-width: 768px) and (max-width: 1199px){
+  .section-categories-category{
+    height: 190px;
+  }
+}
+/* end section categories */
+/* sectin new Releases */
+.section-newReleases-card-title{
+  font-size: 1.4rem;
+}
+@media (min-width: 405px) and (max-width: 461px){
+  .newReleases-tags{
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 405px) {
+  .newReleases-tags{
+    font-size: 0.7rem;
+  }
+}
+/* end section Releases */
+/* cards search and search controls */
+.btn-toggle{
+  appearance: none !important;
+  width: 60px;
+  height: 35px;
+  border-radius: 30px;
+  background: transparent;
+  border: 1px solid #18354c;
+  position: relative;
+  display: flex;
+  align-items: center;
+  direction: ltr !important;
+  cursor: pointer;
+}
+.btn-toggle::after{
+  content: '';
+  left: 0;
+  position: absolute;
+  margin-left: 2px;
+  width: 25px;
+  height: 80%;
+  background: rgb(208, 221, 221);
+  border-radius: 30px;
+  transition: all 0.2s ease-in-out;
+}
+.btn-toggle:checked::after{
+  left: 50%;
+  background: white;
+}
+.btn-toggle:checked{
+  background: #18354c;
+}
+@media (min-width: 768px) and (max-width: 1330px){
+  .card-search-img{
+    width: 50%;
+    height: 50%;
+  }
+}
+/* end cards search and search controls */
+/* request project */
+.request-project-form-textField{
+  
+}
+/* end request project */

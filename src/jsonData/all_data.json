@@ -1,0 +1,179 @@
+{
+    "users": [
+      {
+        "username": "mahyar",
+        "mobile": 1234567890,
+        "email": "john@gmail.com",
+        "is_active": true,
+        "is_staff": false
+      },
+      {
+        "username": "sorosh",
+        "mobile": 9876543210,
+        "email": "sorosh@gmail.com",
+        "is_active": true,
+        "is_staff": true
+      }
+    ],
+    "profiles": [
+      {
+        "user": 1,
+        "first_name": "mahyar",
+        "last_name": "delbari",
+        "bio": "Experienced software developer with a passion for AI.",
+        "age": 30,
+        "avatar": "https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg",
+        "is_author": true
+      },
+      {
+        "user": 2,
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "bio": "Project manager with a knack for organization.",
+        "age": 28,
+        "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQphO1iGa3a8wJpd43zAbREvXa8q4DmAIKww&s",
+        "is_author": false
+      }
+    ],
+    "teams": [
+      {
+        "profile": 1,
+        "role": "توسعه دهنده",
+        "linkedin": "https://linkedin.com/in/johndoe",
+        "github": "https://github.com/johndoe",
+        "email": "mahyar@example.com",
+        "resume_document": "https://example.com/resumes/john_doe.pdf",
+        "short_description": "Senior Developer",
+        "description": "جان بیش از 10 سال تجربه در توسعه نرم افزار، متخصص در هوش مصنوعی و یادگیری ماشین دارد.",
+        "is_developer": true
+      },
+      {
+        "profile": 2,
+        "role": "مدیر پروژه",
+        "linkedin": "https://linkedin.com/in/janesmith",
+        "github": "https://github.com/janesmith",
+        "email": "sorosh@gmail.com",
+        "resume_document": "https://example.com/resumes/jane_smith.pdf",
+        "short_description": "Expert Project Manager",
+        "description": "جین پیشینه ای قوی در مدیریت تیم های بزرگ و پروژه های پیچیده، تضمین تحویل به موقع و کیفیت دارد.",
+        "is_developer": false
+      }
+    ],
+    "categories": [
+      {
+        "title": "فناوری",
+        "description": "بینش و به روز رسانی در مورد آخرین فن آوری.",
+        "id": 1
+      },
+      {
+        "title": "سبک زندگی",
+        "description": "مقالاتی در مورد بهبود سبک زندگی و رفاه شما.",
+        "id": 2
+      },
+      {
+        "title": "اموزش های پایتون",
+        "description": "مقاله ها و اموزش هایی برای یادگیری پایتون",
+        "id": 3
+      },
+      {
+        "title": "پیام های جامعه",
+        "description": "با پایتون کارهای دیگر پایتون را به سادگی بیاموزید",
+        "id": 4
+      },
+      {
+        "title": "فناوری",
+        "description": "بینش و به روز رسانی در مورد آخرین فن آوری.",
+        "id": 5
+      },
+      {
+        "title": "سبک زندگی",
+        "description": "مقالاتی در مورد بهبود سبک زندگی و رفاه شما.",
+        "id": 6
+      },
+      {
+        "title": "اموزش های پایتون",
+        "description": "مقاله ها و اموزش هایی برای یادگیری پایتون",
+        "id": 7
+      },
+      {
+        "title": "پیام های جامعه",
+        "description": "با پایتون کارهای دیگر پایتون را به سادگی بیاموزید",
+        "id": 8
+      }
+    ],
+    "blogs": [
+      {
+        "author": 1,
+        "title": "آینده هوش مصنوعی",
+        "category": 1,
+        "description": "نگاهی عمیق به اینکه چگونه هوش مصنوعی آینده را شکل می دهد.",
+        "image": "https://example.com/images/healthy_living.jpg",
+        "status": 1,
+        "like": 120,
+        "dislike": 5,
+        "published_date": "2023-01-01",
+        "tags": ["پایتون","هوش مصنوعی"]
+      },
+      {
+        "author": 2,
+        "title": "نکات زندگی سالم",
+        "category": 2,
+        "description": "نکات کاربردی برای زندگی سالم تر و شادتر.",
+        "image": "https://example.com/images/healthy_living.jpg",
+        "status": 1,
+        "like": 300,
+        "dislike": 2,
+        "published_date": "2023-02-01",
+        "tags": ["زندگی سالم","زندگی شاد"]
+      },
+      {
+        "author": 3,
+        "title": "ساختن یک فایل خوان عالی برای پروژه",
+        "category": 3,
+        "description": "ساخت یک فایل خوان بسیار خوب برای پروژه های پایتونی",
+        "image": "https://example.com/images/healthy_living.jpg",
+        "status": 1,
+        "like": 120,
+        "dislike": 0,
+        "published_date": "2023-03-01",
+        "tags": ["فایل خوان","فایل پایتون"]
+      },
+      {
+        "author": 4,
+        "title": "فانکشن ها در پایتون",
+        "category": 4,
+        "description": "یک اموزش کلی برای کار کردن با فانکشن ها در پایتون",
+        "image": "https://example.com/images/healthy_living.jpg",
+        "status": 1,
+        "like": 350,
+        "dislike": 10,
+        "published_date": "2023-04-01",
+        "tags": ["پایتون","فانکشن ها"]
+      },
+      {
+        "author": 5,
+        "title": "ابجکت ها در پایتون",
+        "category": 5,
+        "description": "کار کردن با ابجکت ها و استفاده از انها در پروژه های پایتونی",
+        "image": "https://example.com/images/healthy_living.jpg",
+        "status": 1,
+        "like": 500,
+        "dislike": 45,
+        "published_date": "2023-05-01",
+        "tags": ["پایتون","ابجکت ها"]
+      },
+      {
+        "author": 6,
+        "title": "ساخت یک پاشین حساب با پایتون",
+        "category": 6,
+        "description": "ساختن یک ماشین حساب با کتابخانه PyQt",
+        "image": "https://example.com/images/healthy_living.jpg",
+        "status": 1,
+        "like": 320,
+        "dislike": 10,
+        "published_date": "2023-06-01",
+        "tags": ["پایتون","ماشین حساب"]
+      }
+    ]
+  }
+  
