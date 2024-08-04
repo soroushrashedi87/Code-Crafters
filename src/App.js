@@ -6,6 +6,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Footer from './components/Footer';
 import Search from './components/Search';
 import RequestProject from './components/RequestProject';
+import RequestPrinter from './components/RequestPrinter';
+import Team from './components/Team';
 
 function App() {
   const Context= createContext(null);
@@ -30,6 +32,8 @@ function App() {
       <Route index element={<Home />} />
       <Route path='/search' element={<Search />} />
       <Route path='/requestProject' element={<RequestProject />} />
+      <Route path='/requestPrinter' element={<RequestPrinter />} />
+      <Route path='/team' element={<Team />} />
       </Routes>
       <Footer />
     </div>

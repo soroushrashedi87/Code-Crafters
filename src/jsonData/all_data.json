@@ -38,24 +38,62 @@
     "teams": [
       {
         "profile": 1,
+        "name": "سروش راشدی",
         "role": "توسعه دهنده",
         "linkedin": "https://linkedin.com/in/johndoe",
         "github": "https://github.com/johndoe",
         "email": "mahyar@example.com",
         "resume_document": "https://example.com/resumes/john_doe.pdf",
         "short_description": "Senior Developer",
-        "description": "جان بیش از 10 سال تجربه در توسعه نرم افزار، متخصص در هوش مصنوعی و یادگیری ماشین دارد.",
+        "description": "سروش بیش از 10 سال تجربه در توسعه نرم افزار، متخصص در هوش مصنوعی و یادگیری ماشین دارد.",
         "is_developer": true
       },
       {
         "profile": 2,
+        "name": "بهزاد ازادی",
         "role": "مدیر پروژه",
         "linkedin": "https://linkedin.com/in/janesmith",
         "github": "https://github.com/janesmith",
         "email": "sorosh@gmail.com",
         "resume_document": "https://example.com/resumes/jane_smith.pdf",
         "short_description": "Expert Project Manager",
-        "description": "جین پیشینه ای قوی در مدیریت تیم های بزرگ و پروژه های پیچیده، تضمین تحویل به موقع و کیفیت دارد.",
+        "description": "بهزاد پیشینه ای قوی در مدیریت تیم های بزرگ و پروژه های پیچیده، تضمین تحویل به موقع و کیفیت دارد.",
+        "is_developer": false
+      },
+      {
+        "profile": 3,
+        "name": "مهیار دلبری",
+        "role": "توسعه دهنده",
+        "linkedin": "https://linkedin.com/in/janesmith",
+        "github": "https://github.com/janesmith",
+        "email": "sorosh@gmail.com",
+        "resume_document": "https://example.com/resumes/jane_smith.pdf",
+        "short_description": "Expert Project Manager",
+        "description": "مهیار پیشینه ای قوی در مدیریت تیم های بزرگ و پروژه های پیچیده، تضمین تحویل به موقع و کیفیت دارد.",
+        "is_developer": false
+      },
+      {
+        "profile": 4,
+        "name": "امیر محمودی",
+        "role": "توسعه دهنده",
+        "linkedin": "https://linkedin.com/in/janesmith",
+        "github": "https://github.com/janesmith",
+        "email": "sorosh@gmail.com",
+        "resume_document": "https://example.com/resumes/jane_smith.pdf",
+        "short_description": "Expert Project Manager",
+        "description": "امیر پیشینه ای قوی در مدیریت تیم های بزرگ و پروژه های پیچیده، تضمین تحویل به موقع و کیفیت دارد.",
+        "is_developer": false
+      },
+      {
+        "profile": 5,
+        "name": "سروش محمودی",
+        "role": "توسعه دهنده",
+        "linkedin": "https://linkedin.com/in/janesmith",
+        "github": "https://github.com/janesmith",
+        "email": "sorosh@gmail.com",
+        "resume_document": "https://example.com/resumes/jane_smith.pdf",
+        "short_description": "Expert Project Manager",
+        "description": "سروش پیشینه ای قوی در مدیریت تیم های بزرگ و پروژه های پیچیده، تضمین تحویل به موقع و کیفیت دارد.",
         "is_developer": false
       }
     ],

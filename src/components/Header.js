@@ -32,7 +32,7 @@ function Header(props) {
                         <Link to="/" className="nav-link">خانه</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="#" className="nav-link">اموزش ها</Link>
+                        <Link to="/requestPrinter" className="nav-link">نویسنده شدن</Link>
                     </li>
                     <li className="nav-item">
                         <Link to="/requestProject" className="nav-link">درخواست پروژه</Link>
@@ -45,7 +45,7 @@ function Header(props) {
                         </div>
                         </form>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item my-2 my-lg-0">
                         <Link to="#" className="btn btn-danger nav-link nav-link-join">ثبت نام</Link>
                     </li>
                     <li className="nav-item">

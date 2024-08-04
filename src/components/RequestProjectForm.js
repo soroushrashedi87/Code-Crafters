@@ -3,7 +3,7 @@ import React from 'react';
 
 function RequestProjectForm() {
   return (
-    <form action="#" method="POST" className="request-project-form py-5 px-5 border rounded direction-rtl">
+    <form action="#" method="POST" className="request-project-form my-5 py-5 px-4 px-md-5 direction-rtl">
         <h2 className="display-5 text-dark text-center f-i">درخواست پروژه</h2>
         <div className="my-5 f-i">
           <div className="d-flex flex-column">
@@ -21,7 +21,7 @@ function RequestProjectForm() {
           </label>
           <label className="my-2">
             دسته
-            <select className="form-control request-project-form-textField my-1">
+            <select className="form-control my-1">
               <option> وبسایت و وب اپلیکیشن و وبلاگ</option>
               <option>اپلیکیشن های موبایلی</option>
               <option>برنامه های دسکتاپ و ویندوز</option>
@@ -31,7 +31,7 @@ function RequestProjectForm() {
           </label>
           <label className="my-2">
              توضیحات پروژه
-            <textarea className="form-control request-project-form-textField my-1" placeholder="...."></textarea>
+            <textarea className="form-control request-project-form-textField request-project-form-textarea my-1" placeholder="مثلا یک وبسایت فروشگاهی درمورد فروش لوازم خانگی و ..."></textarea>
           </label>
           <div className="d-flex justify-content-center my-3">
             <button className="btn btn-outline-secondary request-project-form-btn" type="submit">ارسال</button>

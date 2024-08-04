@@ -220,8 +220,8 @@
 /* cards search and search controls */
 .btn-toggle{
   appearance: none !important;
-  width: 60px;
-  height: 35px;
+  width: 40px;
+  height: 20px;
   border-radius: 30px;
   background: transparent;
   border: 1px solid #18354c;
@@ -236,7 +236,7 @@
   left: 0;
   position: absolute;
   margin-left: 2px;
-  width: 25px;
+  width: 15px;
   height: 80%;
   background: rgb(208, 221, 221);
   border-radius: 30px;
@@ -257,7 +257,35 @@
 }
 /* end cards search and search controls */
 /* request project */
-.request-project-form-textField{
-  
+.request-project-form{
+  box-shadow: 0 0 2px lightgray;
+  width: 80%;
+  border-radius: 20px !important;
 }
+ .request-project-form .form-control{
+   height: 48px;
+ }
+ .request-project-form .form-control:focus{
+  box-shadow: none !important;
+ }
+ .request-project-form-btn{
+  padding: 15px 50px !important;
+  border-radius: 10px !important;
+  border: none !important;
+  box-shadow: 0 0 5px lightgray;
+ }
+ .request-project-form-btn:hover{
+  background: lightgray !important;
+ }
+/* .request-project-form-textField{
+} */
 /* end request project */
+/* team */
+.section-persons-team .card{
+  font-size: 1.2rem;
+}
+.section-persons-team .card img{
+  width: 135px;
+  height: 135px;
+}
+/* end team */

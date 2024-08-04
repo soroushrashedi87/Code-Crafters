@@ -13,31 +13,31 @@ function Footer() {
             © 2015–2024 code crafters 
             </span>
             .
-            <a href="#" className="text-muted mx-2 f-i">
+            <a href="#" className="text-muted text-decoration-none mx-2 f-i">
               یوتیوب
             </a>
             .
-            <a href="#" className="text-muted mx-2 f-i">
+            <a href="#" className="text-muted text-decoration-none mx-2 f-i">
               اینستاگرام
             </a>
             .
-            <a href="#" className="text-muted mx-2 f-i">
+            <a href="#" className="text-muted text-decoration-none mx-2 f-i">
               تلگرام
             </a>
             .
-            <a href="#" className="text-muted mx-2 f-i">
+            <a href="#" className="text-muted text-decoration-none mx-2 f-i">
               فیس بوک
             </a>
             .
-            <a href="#" className="text-muted mx-2 f-i">
+            <a href="#" className="text-muted text-decoration-none mx-2 f-i">
               یادگیری پایتون
             </a>
             .
-            <a href="#" className="text-muted mx-2 f-i">
+            <a href="#" className="text-muted text-decoration-none mx-2 f-i">
                سرچ کردن
             </a>
             .
-            <a href="#" className="text-muted mx-2 f-i">
+            <a href="#" className="text-muted text-decoration-none mx-2 f-i">
                ارتباط با ما
             </a>
             </p>
