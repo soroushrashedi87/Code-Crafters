@@ -8,6 +8,7 @@ import Search from './components/Search';
 import RequestProject from './components/RequestProject';
 import RequestPrinter from './components/RequestPrinter';
 import Team from './components/Team';
+import PersonTeamDetalis from './components/PersonTeamDetalis';
 
 function App() {
   const Context= createContext(null);
@@ -34,6 +35,7 @@ function App() {
       <Route path='/requestProject' element={<RequestProject />} />
       <Route path='/requestPrinter' element={<RequestPrinter />} />
       <Route path='/team' element={<Team />} />
+      <Route path='/PersonTeamDetalis' element={<PersonTeamDetalis />} />
       </Routes>
       <Footer />
     </div>

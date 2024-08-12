@@ -289,3 +289,15 @@
   height: 135px;
 }
 /* end team */
+/* person team */
+.img-person-team{
+  width: 40% !important;
+  height: 40% !important;
+}
+.person-team-link{
+  font-size: 1.5rem;
+}
+.person-team-link-icon{
+  font-size: 1.6rem;
+}
+/* end person team */

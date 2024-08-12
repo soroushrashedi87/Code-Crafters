@@ -3,7 +3,7 @@ import image from '../assets/images/pytrick.webp';
 
 function FreeEmailSeries() {
   return (
-    <div className="card mt-6 bg-secndary">
+    <div className="card mt-6 my-lg-3 bg-secndary">
     <form className="card-body" action="#" method="post">
       <div className="form-group">
         <p className="h5 text-muted text-center f-i">— سری ایمیل رایگان —</p>
