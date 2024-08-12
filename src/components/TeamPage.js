@@ -60,7 +60,7 @@ function TeamPage() {
                   <p>
                     {person.description}
                   </p>
-                  <a href="#" className="text-decoration-none">درباره {person.name.split(" ")[0]}</a>
+                  <Link to="/PersonTeamDetalis" className="text-decoration-none">درباره {person.name.split(" ")[0]}</Link>
                   </div>
                 </div>
               </div>
